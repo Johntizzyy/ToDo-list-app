@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p id="today">Today </p>
+            <p id="date">sept 23,2024</p>
+    
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Add a task" id="input"/>
+            <input type="submit" value="Add" id="button" onclick="addTask()"/>
+            <!-- <button onclick="removeTask(tasks.length - 1)">X</button> -->
+        </div>
+
+        <ul id="list">
+            <!-- <li>Go to work</li> -->
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
